@@ -1,0 +1,14 @@
+[project]
+name = "crewai-2025"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "crewai>=0.95.0",
+    "crewai-tools>=0.25.8",
+    "docling>=2.15.1",
+    "google-generativeai>=0.8.3",
+    "langchain-milvus>=0.1.8",
+    "ollama>=0.4.6",
+]
