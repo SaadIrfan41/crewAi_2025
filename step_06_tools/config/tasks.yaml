@@ -1,0 +1,21 @@
+addition_task:
+  description: "Add {addition_number1} and {addition_number2} together"
+  expected_output: "The sum of {addition_number1} and {addition_number2}"
+  agent: calculator_agent
+
+subtraction_task:
+  description: "Subtract {subtraction_number2} from {subtraction_number1}"
+  expected_output: "The difference between {subtraction_number1} and {subtraction_number2}"
+  agent: calculator_agent
+
+multiplication_task:
+  description: "Multiply {multiplication_number1} by {multiplication_number2}"
+  expected_output: "The product of {multiplication_number1} and {multiplication_number2}"
+  agent: calculator_agent
+
+division_task:
+  description: "Divide {division_number1} by {division_number2}"
+  expected_output: "The quotient of {division_number1} divided by {division_number2}"
+  agent: calculator_agent
+
+

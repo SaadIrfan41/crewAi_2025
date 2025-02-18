@@ -2,7 +2,7 @@ import asyncio
 from crewai.flow.flow import Flow, listen, start, and_
 
 
-class OrExampleFlow(Flow):
+class AndExampleFlow(Flow):
     @start()
     def start_method(self):
         print("Start Flow")
@@ -38,5 +38,5 @@ class OrExampleFlow(Flow):
         print(f"Logger Forth: {self.state['forth']}")
 
 
-flow = OrExampleFlow()
+flow = AndExampleFlow()
 flow.kickoff()
