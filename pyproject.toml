@@ -10,5 +10,6 @@ dependencies = [
     "docling>=2.15.1",
     "google-generativeai>=0.8.3",
     "langchain-milvus>=0.1.8",
+    "mem0ai>=0.1.42",
     "ollama>=0.4.6",
 ]
